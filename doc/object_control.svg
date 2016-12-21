@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow2-573">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -2.79125 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow2-574">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -2.79125 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow2-585">
+            <path
+                d="M 0.0 0.0 L -3.1704166666666667 1.1322916666666667 L -1.90225 0.0 L -3.1704166666666667 -1.1322916666666667 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow2-586">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -2.79125 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+    </defs>
+    <g>
+        <g latexdraw:type="rectangle" id="id541">
+            <rect x="589.0" y="80.0" width="120.0" height="69.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id542">
+            <rect x="380.0" y="337.0" width="121.0" height="71.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id543"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="614.0">
+            <text x="614.0" y="104.0"><![CDATA[CO Cache]]></text>
+        </g>
+        <g latexdraw:type="text" id="id546"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="401.0">
+            <text x="401.0" y="366.0"><![CDATA[CO Cache]]></text>
+        </g>
+        <g latexdraw:type="rectangle" id="id549">
+            <rect x="589.0" y="336.0" width="121.0" height="71.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id550"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="611.0">
+            <text x="611.0" y="364.0"><![CDATA[CO Cache]]></text>
+        </g>
+        <g latexdraw:type="text" id="id553"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="620.0">
+            <text x="620.0" y="390.0"><![CDATA[Today]]></text>
+        </g>
+        <g latexdraw:type="text" id="id556"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="402.0">
+            <text x="402.0" y="387.0"><![CDATA[Yesterday]]></text>
+        </g>
+        <g latexdraw:type="rectangle" id="id559">
+            <rect x="379.0" y="208.0" width="121.0" height="71.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id560"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="385.0">
+            <text x="385.0" y="238.0"><![CDATA[Object Control]]></text>
+        </g>
+        <g latexdraw:type="rectangle" id="id563">
+            <rect x="589.0" y="205.0" width="121.0" height="71.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id564"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="596.0">
+            <text x="596.0" y="237.0"><![CDATA[Object Control]]></text>
+        </g>
+        <g latexdraw:type="text" id="id567"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="619.0">
+            <text x="619.0" y="261.0"><![CDATA[Today]]></text>
+        </g>
+        <g latexdraw:type="text" id="id570"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="400.0">
+            <text x="400.0" y="262.0"><![CDATA[Yesterday]]></text>
+        </g>
+        <g latexdraw:type="line" id="id573">
+            <line x1="649.0" x2="650.0" y1="277.0" y2="333.0"
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-573)"/>
+        </g>
+        <g latexdraw:type="line" id="id574">
+            <line x1="441.0" x2="440.0" y1="281.0" y2="334.0"
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-574)"/>
+        </g>
+        <g latexdraw:type="text" id="id575"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="639.0">
+            <text x="639.0" y="133.0"><![CDATA[All]]></text>
+        </g>
+        <g latexdraw:type="rectangle" id="id578">
+            <rect x="379.0" y="80.0" width="121.0" height="71.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id579"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="387.0">
+            <text x="387.0" y="107.0"><![CDATA[Object Control]]></text>
+        </g>
+        <g latexdraw:type="text" id="id582"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="412.0">
+            <text x="412.0" y="130.0"><![CDATA[Schema]]></text>
+        </g>
+        <g latexdraw:type="line" id="id585">
+            <line x1="499.0" x2="587.0" y1="152.0" y2="205.0"
+                stroke-width="10.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-585)"/>
+            <line x1="499.0" x2="587.0" y1="152.0" y2="205.0"
+                stroke="white" stroke-width="6.0" fill="none" latexdraw:type="dbleborders"/>
+        </g>
+        <g latexdraw:type="line" id="id586">
+            <line x1="649.0" x2="649.0" y1="206.0" y2="151.0"
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-586)"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id587">
+            <path
+                d="M 336.0 215.0 C 375.62639834693766 183.50822153350413 476.0 166.0 515.0 204.0 C 554.0 242.0 516.5605824897452 274.7289398155697 552.0 309.0 C 587.4394175102548 343.2710601844303 720.6545805288653 303.1403770448478 750.0 345.0 C 779.3454194711347 386.8596229551522 744.0 431.0 692.0 430.0 C 640.0 429.0 420.32721876808284 440.10956713354284 378.0 422.0 C 335.67278123191716 403.89043286645716 332.67558437511457 376.92836116127273 329.0 329.0 C 325.32441562488543 281.07163883872727 296.37360165306234 246.49177846649587 336.0 215.0 z "
+                stroke-width="2.0" stroke="#ce3535" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id590">
+            <path
+                d="M 749.0 190.0 C 708.307768167462 160.94587346886811 581.1398913483066 177.4305181928488 546.0 213.0 C 510.86010865169357 248.56948180715096 572.6379193359973 277.9755548652323 536.0 312.0 C 499.3620806640026 346.0244451347679 381.84514785986545 279.30124322920585 349.0 317.0 C 316.15485214013455 354.6987567707941 324.6511159299865 400.75754433371964 362.0 434.0 C 399.34888407001347 467.24245566628036 679.493219653921 458.32819068242645 722.0 432.0 C 764.506780346079 405.6718093175736 771.7815390752656 370.6118004482514 778.0 321.0 C 784.2184609247344 271.3881995517486 789.692231832538 219.05412653113189 749.0 190.0 z "
+                stroke-width="2.0" stroke="#990d8f" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id593">
+            <path
+                d="M 392.0 61.0 C 444.0 51.0 507.00101315054945 62.6817013533699 557.0 63.0 C 606.9989868494506 63.3182986466301 709.7736343124039 51.17077935334544 740.0 91.0 C 770.2263656875961 130.82922064665456 770.9411544495906 254.29770266451317 729.0 285.0 C 687.0588455504094 315.70229733548683 604.6560816083121 318.4531638992577 565.0 288.0 C 525.3439183916879 257.5468361007423 554.7720592847106 220.9419968503214 514.0 192.0 C 473.2279407152894 163.0580031496786 440.98278776152125 182.31184129631782 395.0 176.0 C 349.01721223847875 169.68815870368218 327.0 168.0 334.0 119.0 C 341.0 70.0 340.0 71.0 392.0 61.0 z "
+                stroke-width="2.0" stroke="#32b24c" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id596">
+            <path
+                d="M 821.5170271051762 365.45819923875297 C 829.1306487893173 364.0 838.3549926325072 365.7034248020824 845.6756343721622 365.7498390865037 C 852.9962761118172 365.796253370925 868.0441085061227 364.02490303230434 872.4697260682739 369.8327969550123 C 876.895343630425 375.6406908777203 877.0 393.64485552656424 870.8591522504747 398.121862186822 C 864.7183045009494 402.59886884707976 852.6532377628206 403.0 846.846960785107 398.559321958448 C 841.0406838073933 394.11864391689596 845.3494286463755 388.7809290439317 839.379754902584 384.5606092664184 C 833.4100811587924 380.3402894889051 828.6888812407685 383.14788270175563 821.9562745100307 382.22749048441347 C 815.2236677792928 381.3070982670713 812.0 381.0609310934109 813.0249106113267 373.91575482352096 C 814.0498212226535 366.770578553631 813.9034054210351 366.91639847750594 821.5170271051762 365.45819923875297 z "
+                stroke-width="2.0" stroke="#32b24c" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="text" id="id599"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="893.0">
+            <text x="893.0" y="377.0"><![CDATA[etl extract co <yyyymmdd>]]></text>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id602">
+            <path
+                d="M 814.7068765666382 415.4690158494293 C 818.0401514802141 412.59682692915396 826.4833313384024 411.0 829.7639151676797 414.46576739343504 C 833.0444989969569 417.9315347868701 829.8951875184517 420.91655827198815 832.8762639287888 424.0422299279263 C 835.8573403391259 427.1679015838645 847.0630713548535 423.5078065022475 849.5315356774267 427.3255885111805 C 852.0 431.14337052011354 849.0268304729226 435.16916734895426 844.652718700553 435.0779629438639 C 840.2786069281834 434.98675853877353 821.800274265574 436.0 818.2398129981675 434.3483277031406 C 814.679351730761 432.69665540628125 814.4272349220024 430.2375956964054 814.11805382805 425.8663180297342 C 813.8088727340977 421.495040363063 811.3736016530623 418.34120476970463 814.7068765666382 415.4690158494293 z "
+                stroke-width="2.0" stroke="#ce3535" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id605">
+            <path
+                d="M 869.685494319232 412.0069583640434 C 864.3709886384642 408.0 847.7625507786809 410.2734562329473 843.1731944376309 415.1789705143399 C 838.5838380965808 420.08448479573246 846.6521722980144 424.1399813623732 841.8671698129214 428.83241411778954 C 837.0821673278283 433.5248468732059 821.7341665215758 424.3228117796789 817.4445093308552 429.52198197654957 C 813.1548521401346 434.72115217342025 814.2644851128919 441.07328407679074 819.1423413429775 445.65786987153547 C 824.0201975730631 450.2424556662802 860.6077376476072 449.01305754281327 866.1592278325165 445.3820427280318 C 871.7107180174258 441.75102791325037 872.6608194213397 436.9157768644243 873.4729657308894 430.0736362635578 C 874.2851120404391 423.23149566269126 874.9999999999999 416.01391672808677 869.685494319232 412.0069583640434 z "
+                stroke-width="2.0" stroke="#990d8f" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="text" id="id608"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="893.0">
+            <text x="893.0" y="424.0"><![CDATA[etl check co <yyyymmdd> <yyyymmdd>]]></text>
+        </g>
+    </g>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:displayBorders>false</latexdraw:displayBorders>
+            <latexdraw:autoAdjust>true</latexdraw:autoAdjust>
+            <latexdraw:ppc>50</latexdraw:ppc>
+            <latexdraw:zoom>1.0</latexdraw:zoom>
+            <latexdraw:unit>cm</latexdraw:unit>
+            <latexdraw:classicGrid>false</latexdraw:classicGrid>
+            <latexdraw:gridGap>10</latexdraw:gridGap>
+            <latexdraw:code>0</latexdraw:code>
+            <latexdraw:displayGrid>true</latexdraw:displayGrid>
+            <latexdraw:magneticGrid>false</latexdraw:magneticGrid>
+            <latexdraw:autoUpdate>true</latexdraw:autoUpdate>
+            <latexdraw:version>2.0.8</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1341</latexdraw:width>
+                <latexdraw:height>750</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>25</latexdraw:x>
+                <latexdraw:y>18</latexdraw:y>
+            </latexdraw:position>
+            <latexdraw:dividerPosition>0.814317673378076</latexdraw:dividerPosition>
+            <latexdraw:displayCodePanel>true</latexdraw:displayCodePanel>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:delimitorOpacity>130</latexdraw:delimitorOpacity>
+        </latexdraw:metadata>
+    </metadata>
+</svg>

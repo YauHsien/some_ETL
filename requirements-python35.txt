@@ -1,0 +1,16 @@
+asyncoro==4.2.2
+cffi==1.7.0
+cryptography==1.4
+Cython==0.24.1
+dispy==4.6.16
+idna==2.1
+Kivy==1.9.1
+Kivy-Garden==0.1.4
+paramiko==2.0.2
+pyasn1==0.1.9
+pycparser==2.14
+PyMySQL==0.7.5
+python-dateutil==2.5.3
+PyYAML==3.11
+requests==2.11.1
+six==1.10.0

@@ -1,0 +1,48 @@
+database: core
+table name: DELTA_CHECK
+purpose: to provide annotation about which column need perform check.
+key:
+ - TABLE_NAME
+ - `FIELD`
+ - CUSTOMER_ID: '*' for all customers, and it is overwritten by another record with value like 'TWM'.
+ - TECHNOLOGY: case of 'LTE', 'UMTS', 'GSM'.
+other columns:
+ - DATABASE_NAME: database name the table will be put.
+ - ENABLED: 1 for enabled; 0 for disabled.
+SQL:
+- /*
+   * To find CM delta-check columns
+   */
+- use PoC_core;
+- set @tblname = 'C_LTE_MRBTS';
+- set @tblname1 = 'C_LTE_LNCEL';
+- set @cusid = 'TWM';
+- select *
+  from DELTA_CHECK
+  where TABLE_NAME = @tblname and ENABLED
+    and (TABLE_NAME, `FIELD`) not in (select TABLE_NAME, `FIELD`
+          from DELTA_CHECK
+          where CUSTOMER_ID in ('*', @cusid) and ENABLED
+          group by TABLE_NAME, `FIELD`, TECHNOLOGY
+          having count(`FIELD`) > 1)
+     or ((TABLE_NAME, `FIELD`) in (select TABLE_NAME, `FIELD`
+          from DELTA_CHECK
+          where CUSTOMER_ID in ('*', @cusid) and ENABLED
+          group by TABLE_NAME, `FIELD`, TECHNOLOGY
+          having count(`FIELD`) > 1) and CUSTOMER_ID != '*');
+- select *
+  from DELTA_CHECK
+  where TABLE_NAME in (@tblname, @tblname1) and ENABLED
+    and (TABLE_NAME, `FIELD`) not in (select TABLE_NAME, `FIELD`
+          from DELTA_CHECK
+          where CUSTOMER_ID in ('*', @cusid) and ENABLED
+          group by TABLE_NAME, `FIELD`, TECHNOLOGY
+          having count(`FIELD`) > 1)
+     or ((TABLE_NAME, `FIELD`) in (select TABLE_NAME, `FIELD`
+          from DELTA_CHECK
+          where CUSTOMER_ID in ('*', @cusid) and ENABLED
+          group by TABLE_NAME, `FIELD`, TECHNOLOGY
+          having count(`FIELD`) > 1) and CUSTOMER_ID != '*');
+annotation:
+- By default, records with COSTOMER_ID = '*' and ENABLED = 1 are chose as adopted columns to check.
+- Then records with COSTOMER_ID != '*' are merged to the above column set, by replacing same columns with COSTOMER_ID = '*'.

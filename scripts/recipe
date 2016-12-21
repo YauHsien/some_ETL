@@ -1,0 +1,58 @@
+customer ID: TWM
+task group: LTE
+system ID: TWM-Product
+
+ftp:
+ - ftp://xinos:NSNtwm2012@125.227.51.229:21209/_raw_data/LTE/201607/20160718
+
+data:
+ - common object:
+    - CMDLTE_LRC\d+_\d\d\d\d-\d\d-\d\d.zip
+       - C_LTE_CTP_COMMON_OBJECT_\d\d\d\d-\d\d-\d\d.csv
+       - C_LTE_UTP_COMMON_OBJECT_\d\d\d\d-\d\d-\d\d.csv
+ - CM:
+    - CMDLTE_LRC\d+_\d\d\d\d-\d\d-\d\d.zip
+       - C_LTE_((^MO).+)_\d\d\d\d-\d\d-\d\d.csv
+ - FM:
+    - FX_ALARM_LRC\d+_\d\d\d\d-\d\d-\d\d.zip
+ - PM:
+    - ((PCOFNSRAW|PCOFNGRAW|IMSCSFRAW|IMSHSSRAW|MADHRRAW|MADODCRAW|IMSDRARAW|XMLNSSRAW|NOKOBWRAW|NOKOMWRAW|NOKIUMRAW)+)_RAW_(LRC\d+)_\d\d\d\d-\d\d-\d\d[.]zip
+
+databases:
+ - xinos_config: root:2wsx@WSX@59.120.199.106:33062
+ - databases:
+    - xinos_config:
+       - COMMON_OBJECT
+    - DB_CM
+       - C_LTE_((^MO).+)_yyyymm
+       - C_LTE_((^MO).+)_LATEST
+       - C_LTE_((^MO).+)_CHECK_yyyymm
+       - C_LTE_((^MO).+)_CHECK_LATEST
+    - DB_FM
+    - DB_PM
+
+cache:
+ - .xinos/TWM/LTE/20160718/files.txt
+ - .xinos/TWM/LTE/20160718/history/CO.LRC1.C_LTE_....done
+ - .xinos/TWM/LTE/20160718/history/CO.LRC1.C_LTE_....upload
+ - .xinos/TWM/LTE/columns/OBJECT.json
+ - .xinos/TWM/LTE/columns/OBJECT_CHECK.json
+ - .xinos/TWM/LTE/columns/\w+_CHECK.json
+ - .xinos/TWM/LTE/columns/MAPPING.json
+ - .xinos/TWM/LTE/columns/DS/C_LTE_....json
+ - .xinos/TWM/LTE/columns/DB/C_LTE_....json
+ - .xinos/TWM/LTE/columns/DS/FX_ALARM.json
+ - .xinos/TWM/LTE/columns/DB/FX_ALARM.json
+ - .xinos/TWM/LTE/columns/DS/....json
+ - .xinos/TWM/LTE/columns/DB/....json
+ - data/TWM/LTE/cache/COMMON_OBJECT.json
+ - data/TWM/LTE/cache/COUNTER.json
+ - data/TWM/LTE/cache/20160718/OBJECT_CHECK.json
+ - data/TWM/LTE/cache/20160718/C_LTE_..._CHECK.json
+ - data/TWM/LTE/20160718/tmp/
+ - data/TWM/LTE/20160718/cache/OC/occ_(CTP|UTP)_LRC\d+.txt
+ - date/TWM/LTE/20160718/columns/check/....json # { "default": [SQL], "alter": [SQL], "create": [SQL] }
+ - data/TWM/LTE/20160718/CMDLTE_....zip
+ - data/TWM/LTE/20160718/FX_ALARM.zip
+ - data/TWM/LTE/20160718/\w+_....zip
+ - data/TWM/LTE/20160718/{CO,OC,CM,DC,FM,PM}/TABLE/*.csv

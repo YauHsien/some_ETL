@@ -1,0 +1,7 @@
+{
+    "system mode": "dev",
+    "conf_folder": "priv",
+    "data_source_conf_folder": "%%%",
+    "data_source_conf_file": "data_source_conf.json",
+    "db_conf_file": "db_conf.json"
+}

@@ -1,0 +1,13 @@
+.PHONY: init freeze test
+
+PIP = pip
+PYTEST = py.test
+
+init:
+	$(PIP) install -r requirements.txt
+
+freeze:
+	$(PIP) freeze > requirements.txt
+
+test:
+	$(PYTEST) tests
