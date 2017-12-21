@@ -1,4 +1,4 @@
-=== usage ==
+### usage
 
 `etl init`
 
