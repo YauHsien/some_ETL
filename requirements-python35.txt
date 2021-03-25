@@ -11,6 +11,6 @@ pyasn1==0.1.9
 pycparser==2.14
 PyMySQL==0.7.5
 python-dateutil==2.5.3
-PyYAML==3.11
+PyYAML==5.4
 requests==2.11.1
 six==1.10.0
