@@ -6,7 +6,7 @@ dispy==4.6.16
 idna==2.1
 Kivy==1.9.1
 Kivy-Garden==0.1.4
-paramiko==2.0.2
+paramiko==2.10.1
 pyasn1==0.1.9
 pycparser==2.14
 PyMySQL==0.7.5
