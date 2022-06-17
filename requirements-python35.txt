@@ -1,6 +1,6 @@
 asyncoro==4.2.2
 cffi==1.7.0
-cryptography==1.4
+cryptography==3.3.2
 Cython==0.24.1
 dispy==4.6.16
 idna==2.1
